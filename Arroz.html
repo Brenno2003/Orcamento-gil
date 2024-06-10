@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gil</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <!-- <link href="css/reset.css" rel="stylesheet" type="text/css" /> -->
+    <title>Arroz</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="JS/script.js"></script>
 </head>
 <body>
@@ -19,7 +18,18 @@
             </ul>
         </nav>
     </header>
-    <h1>Itens</h1>
-    <p id="Arroz"><a href="Arroz.html">Arroz</a></p>
+    <h1>Arroz</h1>
+    <p>Preço: 5,80</p>
+    <label>Qunatidade: </label>
+    <input type="number" id="qunatidade">
+
+    <button type="button" onclick="selecionarProduto()">Adicionar</button>
+    
+    <div>   
+        <h1>Carrinho</h1>
+        <ul id="listaDeProdutos">
+
+        </ul>
+    </div>
 </body>
 </html>
